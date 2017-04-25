@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: 60855a30069b44f23a1a7cb4b73c4c33
+timeCreated: 1486492316
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Geometry
+    100004: Head
+    100006: Hip_Control
+    100008: Hip_Joint
+    100010: L_Back_Leg_01
+    100012: L_Back_Leg_01_Control
+    100014: L_Back_Leg_01_Joint
+    100016: L_Back_Leg_02
+    100018: L_Back_Leg_02_Control
+    100020: L_Back_Leg_02_Joint
+    100022: L_Back_Leg_03
+    100024: L_Back_Leg_03_Control
+    100026: L_Back_Leg_03_Joint
+    100028: L_Frong_Leg_02
+    100030: L_Front_Leg_01
+    100032: L_Front_Leg_01_Control
+    100034: L_Front_Leg_01_Joint
+    100036: L_Front_Leg_02_Control
+    100038: L_Front_Leg_02_Joint
+    100040: L_Front_Leg_03
+    100042: L_Front_Leg_03_Control
+    100044: L_Front_Leg_03_Joint
+    100046: Neck_01
+    100048: Neck_01_Control
+    100050: Neck_01_Joint
+    100052: Neck_02
+    100054: Neck_02_Control
+    100056: Neck_02_Joint
+    100058: Neck_03
+    100060: Neck_03_Control
+    100062: Neck_03_Joint
+    100064: R_Back_Leg_01
+    100066: R_Back_Leg_01_Control
+    100068: R_Back_Leg_01_Joint
+    100070: R_Back_Leg_02
+    100072: R_Back_Leg_02_Control
+    100074: R_Back_Leg_02_Joint
+    100076: R_Back_Leg_03
+    100078: R_Back_Leg_03_Control
+    100080: R_Back_Leg_03_Joint
+    100082: R_Front_Leg_01
+    100084: R_Front_Leg_01_Control
+    100086: R_Front_Leg_01_Joint
+    100088: R_Front_Leg_02
+    100090: R_Front_Leg_02_Control
+    100092: R_Front_Leg_02_Joint
+    100094: R_Front_Leg_03
+    100096: R_Front_Leg_03_Control
+    100098: R_Front_Leg_03_Joint
+    100100: Shoulder_Control
+    100102: Shoulder_Joint
+    100104: //RootNode
+    100106: Tail_01
+    100108: Tail_01_Control
+    100110: Tail_01_Joint
+    100112: Tail_02
+    100114: Tail_02_Control
+    100116: Tail_02_Joint
+    100118: Tail_03
+    100120: Tail_03_Control
+    100122: Tail_03_Joint
+    100124: Tail_04
+    100126: Tail_04_Control
+    100128: Tail_04_Joint
+    100130: back
+    100132: bottom
+    100134: COG_Ctrl
+    100136: COG_Ctrl_Grp
+    100138: COG_Jnt
+    100140: Controls
+    100142: Head_01_Ctrl
+    100144: Head_01_Ctrl_Grp
+    100146: Head_01_Jnt
+    100148: Head_02_Jnt
+    100150: Head_02_Jnt1
+    100152: Head_Geo_01
+    100154: Hip_01_Jnt
+    100156: Hip_Ctrl
+    100158: Hip_Ctrl_Grp
+    100160: Jaw_01_Ctrl
+    100162: Jaw_01_Ctrl_Grp
+    100164: Jaw_01_Jnt
+    100166: Jaw_02_Jnt
+    100168: Jaw_Geo_01
+    100170: L_Arm_01_Ctrl
+    100172: L_Arm_01_Ctrl_Grp
+    100174: L_Arm_02_Ctrl
+    100176: L_Arm_02_Ctrl_Grp
+    100178: L_Arm_02_Jnt
+    100180: L_Arm_03_Ctrl
+    100182: L_Arm_03_Ctrl_Grp
+    100184: L_Arm_03_Jnt
+    100186: L_Arm_Jnt
+    100188: L_Finger_01_FK_01_Ctrl
+    100190: L_Finger_01_FK_01_Ctrl_Grp
+    100192: L_Finger_01_FK_01_Jnt
+    100194: L_Finger_01_FK_02_Jnt
+    100196: L_Finger_02_FK_01_Ctrl
+    100198: L_Finger_02_FK_01_Ctrl_Grp
+    100200: L_Finger_02_FK_01_Jnt
+    100202: L_Finger_02_FK_02_Jnt
+    100204: L_Finger_03_FK_01_Ctrl
+    100206: L_Finger_03_FK_01_Ctrl_Grp
+    100208: L_Finger_03_FK_01_Jnt
+    100210: L_Finger_03_FK_02_Jnt
+    100212: L_Leg_01_Ctrl
+    100214: L_Leg_01_Ctrl_Grp
+    100216: L_Leg_01_Jnt
+    100218: L_Leg_02_Ctrl
+    100220: L_Leg_02_Ctrl_Grp
+    100222: L_Leg_02_Jnt
+    100224: L_Leg_03_Ctrl
+    100226: L_Leg_03_Ctrl_Grp
+    100228: L_Leg_03_Jnt
+    100230: L_Leg_04_Ctrl
+    100232: L_Leg_04_Ctrl_Grp
+    100234: L_Leg_04_Jnt
+    100236: L_Toe_01_FK_01_Ctrl
+    100238: L_Toe_01_FK_01_Ctrl_Grp
+    100240: L_Toe_01_FK_01_Jnt
+    100242: L_Toe_01_FK_02_Jnt
+    100244: L_Toe_02_FK_01_Ctrl
+    100246: L_Toe_02_FK_01_Ctrl_Grp
+    100248: L_Toe_02_FK_01_Jnt
+    100250: L_Toe_02_FK_02_Jnt
+    100252: L_Toe_03_FK_01_Ctrl
+    100254: L_Toe_03_FK_01_Ctrl_Grp
+    100256: L_Toe_03_FK_01_Jnt
+    100258: L_Toe_03_FK_02_Jnt
+    100260: left
+    100262: Left_Arm_Finger_01_Geo
+    100264: Left_Arm_Finger_02_Geo
+    100266: Left_Arm_Finger_03_Geo
+    100268: Left_Arm_Geo_01
+    100270: Left_Arm_Geo_02
+    100272: Left_Arm_Geo_03
+    100274: Left_Leg_01
+    100276: Left_Leg_01 1
+    100278: Left_Leg__Geo_02
+    100280: Left_Leg_Geo_01
+    100282: Left_Leg_Geo_03
+    100284: Left_Leg_Geo_04
+    100286: Left_Leg_Toe_01_Geo
+    100288: Left_Leg_Toe_02_Geo
+    100290: Left_Leg_Toe_03_Geo
+    100292: Neck_01_Ctrl
+    100294: Neck_01_Ctrl_Grp
+    100296: Neck_01_Jnt
+    100298: Neck_02_Ctrl
+    100300: Neck_02_Ctrl_Grp
+    100302: Neck_02_Jnt
+    100304: Neck_03_Ctrl
+    100306: Neck_03_Ctrl_Grp
+    100308: Neck_03_Jnt
+    100310: Neck_04_Ctrl
+    100312: Neck_04_Ctrl_Grp
+    100314: Neck_04_Jnt
+    100316: Neck_Geo_01
+    100318: Neck_Geo_02
+    100320: Neck_Geo_03
+    100322: pCube35
+    100324: pCube35 1
+    100326: pCube37
+    100328: pCube37 1
+    100330: pCube39
+    100332: pCube39 1
+    100334: pCube41
+    100336: pCube41 1
+    100338: pCube43
+    100340: pCube43 1
+    100342: pCube45
+    100344: pCube45 1
+    100346: polySurface1
+    100348: polySurface1 1
+    100350: polySurface1 2
+    100352: polySurface11
+    100354: polySurface11 1
+    100356: polySurface13
+    100358: polySurface13 1
+    100360: polySurface15
+    100362: polySurface15 1
+    100364: polySurface17
+    100366: polySurface17 1
+    100368: polySurface19
+    100370: polySurface19 1
+    100372: polySurface21
+    100374: polySurface21 1
+    100376: polySurface23
+    100378: polySurface23 1
+    100380: polySurface25
+    100382: polySurface25 1
+    100384: polySurface3
+    100386: polySurface3 1
+    100388: polySurface3 2
+    100390: polySurface5
+    100392: polySurface5 1
+    100394: polySurface9
+    100396: polySurface9 1
+    100398: R_Arm_01_Ctrl
+    100400: R_Arm_01_Ctrl_Grp
+    100402: R_Arm_02_Ctrl
+    100404: R_Arm_02_Ctrl_Grp
+    100406: R_Arm_02_Jnt
+    100408: R_Arm_03_Ctrl
+    100410: R_Arm_03_Ctrl_Grp
+    100412: R_Arm_03_Jnt
+    100414: R_Arm_Jnt
+    100416: R_Finger_01_FK_01_Ctrl
+    100418: R_Finger_01_FK_01_Ctrl_Grp
+    100420: R_Finger_01_FK_01_Jnt
+    100422: R_Finger_01_FK_02_Jnt
+    100424: R_Finger_02_FK_01_Ctrl
+    100426: R_Finger_02_FK_01_Ctrl_Grp
+    100428: R_Finger_02_FK_01_Jnt
+    100430: R_Finger_02_FK_02_Jnt
+    100432: R_Finger_03_FK_01_Ctrl
+    100434: R_Finger_03_FK_01_Ctrl_Grp
+    100436: R_Finger_03_FK_01_Jnt
+    100438: R_Finger_03_FK_02_Jnt
+    100440: R_Leg_01_Ctrl
+    100442: R_Leg_01_Ctrl_Grp
+    100444: R_Leg_01_Jnt
+    100446: R_Leg_02_Ctrl
+    100448: R_Leg_02_Ctrl_Grp
+    100450: R_Leg_02_Jnt
+    100452: R_Leg_03_Ctrl
+    100454: R_Leg_03_Ctrl_Grp
+    100456: R_Leg_03_Jnt
+    100458: R_Leg_04_Ctrl
+    100460: R_Leg_04_Ctrl_Grp
+    100462: R_Leg_04_Jnt
+    100464: R_Toe_01_FK_01_Ctrl
+    100466: R_Toe_01_FK_01_Ctrl_Grp
+    100468: R_Toe_01_FK_01_Jnt
+    100470: R_Toe_01_FK_02_Jnt
+    100472: R_Toe_02_FK_01_Ctrl
+    100474: R_Toe_02_FK_01_Ctrl_Grp
+    100476: R_Toe_02_FK_01_Jnt
+    100478: R_Toe_02_FK_02_Jnt
+    100480: R_Toe_03_FK_01_Ctrl
+    100482: R_Toe_03_FK_01_Ctrl_Grp
+    100484: R_Toe_03_FK_01_Jnt
+    100486: R_Toe_03_FK_02_Jnt
+    100488: Right_Arm_Finger_01_Geo
+    100490: Right_Arm_Finger_02_Geo
+    100492: Right_Arm_Finger_03_Geo
+    100494: Right_Arm_Geo_01
+    100496: Right_Arm_Geo_02
+    100498: Right_Arm_Geo_03
+    100500: Right_Leg_Geo_01
+    100502: Right_Leg_Geo_02
+    100504: Right_Leg_Geo_03
+    100506: Right_Leg_Geo_04
+    100508: Right_Leg_Toe_01_Geo
+    100510: Right_Leg_Toe_02_Geo
+    100512: Right_Leg_Toe_03_Geo
+    100514: S_Tail:left
+    100516: Skeleton
+    100518: Spine_Ctrl
+    100520: Spine_Ctrl_Grp
+    100522: Spine_Geo_03
+    100524: Spine_Geo_04
+    100526: Spine_Jnt
+    100528: Spinosaurus
+    100530: Tail_01_Ctrl
+    100532: Tail_01_Ctrl_Grp
+    100534: Tail_01_Jnt
+    100536: Tail_02_Ctrl
+    100538: Tail_02_Ctrl_Grp
+    100540: Tail_02_Jnt
+    100542: Tail_03_Ctrl
+    100544: Tail_03_Ctrl_Grp
+    100546: Tail_03_Jnt
+    100548: Tail_04_Jnt
+    100550: Tail_Geo_01
+    100552: Tail_Geo_02
+    100554: Tail_Geo_03
+    100556: Transform_Ctrl
+    100558: Transform_Ctrl_Grp
+    400000: Body
+    400002: Geometry
+    400004: Head
+    400006: Hip_Control
+    400008: Hip_Joint
+    400010: L_Back_Leg_01
+    400012: L_Back_Leg_01_Control
+    400014: L_Back_Leg_01_Joint
+    400016: L_Back_Leg_02
+    400018: L_Back_Leg_02_Control
+    400020: L_Back_Leg_02_Joint
+    400022: L_Back_Leg_03
+    400024: L_Back_Leg_03_Control
+    400026: L_Back_Leg_03_Joint
+    400028: L_Frong_Leg_02
+    400030: L_Front_Leg_01
+    400032: L_Front_Leg_01_Control
+    400034: L_Front_Leg_01_Joint
+    400036: L_Front_Leg_02_Control
+    400038: L_Front_Leg_02_Joint
+    400040: L_Front_Leg_03
+    400042: L_Front_Leg_03_Control
+    400044: L_Front_Leg_03_Joint
+    400046: Neck_01
+    400048: Neck_01_Control
+    400050: Neck_01_Joint
+    400052: Neck_02
+    400054: Neck_02_Control
+    400056: Neck_02_Joint
+    400058: Neck_03
+    400060: Neck_03_Control
+    400062: Neck_03_Joint
+    400064: R_Back_Leg_01
+    400066: R_Back_Leg_01_Control
+    400068: R_Back_Leg_01_Joint
+    400070: R_Back_Leg_02
+    400072: R_Back_Leg_02_Control
+    400074: R_Back_Leg_02_Joint
+    400076: R_Back_Leg_03
+    400078: R_Back_Leg_03_Control
+    400080: R_Back_Leg_03_Joint
+    400082: R_Front_Leg_01
+    400084: R_Front_Leg_01_Control
+    400086: R_Front_Leg_01_Joint
+    400088: R_Front_Leg_02
+    400090: R_Front_Leg_02_Control
+    400092: R_Front_Leg_02_Joint
+    400094: R_Front_Leg_03
+    400096: R_Front_Leg_03_Control
+    400098: R_Front_Leg_03_Joint
+    400100: Shoulder_Control
+    400102: Shoulder_Joint
+    400104: //RootNode
+    400106: Tail_01
+    400108: Tail_01_Control
+    400110: Tail_01_Joint
+    400112: Tail_02
+    400114: Tail_02_Control
+    400116: Tail_02_Joint
+    400118: Tail_03
+    400120: Tail_03_Control
+    400122: Tail_03_Joint
+    400124: Tail_04
+    400126: Tail_04_Control
+    400128: Tail_04_Joint
+    400130: back
+    400132: bottom
+    400134: COG_Ctrl
+    400136: COG_Ctrl_Grp
+    400138: COG_Jnt
+    400140: Controls
+    400142: Head_01_Ctrl
+    400144: Head_01_Ctrl_Grp
+    400146: Head_01_Jnt
+    400148: Head_02_Jnt
+    400150: Head_02_Jnt1
+    400152: Head_Geo_01
+    400154: Hip_01_Jnt
+    400156: Hip_Ctrl
+    400158: Hip_Ctrl_Grp
+    400160: Jaw_01_Ctrl
+    400162: Jaw_01_Ctrl_Grp
+    400164: Jaw_01_Jnt
+    400166: Jaw_02_Jnt
+    400168: Jaw_Geo_01
+    400170: L_Arm_01_Ctrl
+    400172: L_Arm_01_Ctrl_Grp
+    400174: L_Arm_02_Ctrl
+    400176: L_Arm_02_Ctrl_Grp
+    400178: L_Arm_02_Jnt
+    400180: L_Arm_03_Ctrl
+    400182: L_Arm_03_Ctrl_Grp
+    400184: L_Arm_03_Jnt
+    400186: L_Arm_Jnt
+    400188: L_Finger_01_FK_01_Ctrl
+    400190: L_Finger_01_FK_01_Ctrl_Grp
+    400192: L_Finger_01_FK_01_Jnt
+    400194: L_Finger_01_FK_02_Jnt
+    400196: L_Finger_02_FK_01_Ctrl
+    400198: L_Finger_02_FK_01_Ctrl_Grp
+    400200: L_Finger_02_FK_01_Jnt
+    400202: L_Finger_02_FK_02_Jnt
+    400204: L_Finger_03_FK_01_Ctrl
+    400206: L_Finger_03_FK_01_Ctrl_Grp
+    400208: L_Finger_03_FK_01_Jnt
+    400210: L_Finger_03_FK_02_Jnt
+    400212: L_Leg_01_Ctrl
+    400214: L_Leg_01_Ctrl_Grp
+    400216: L_Leg_01_Jnt
+    400218: L_Leg_02_Ctrl
+    400220: L_Leg_02_Ctrl_Grp
+    400222: L_Leg_02_Jnt
+    400224: L_Leg_03_Ctrl
+    400226: L_Leg_03_Ctrl_Grp
+    400228: L_Leg_03_Jnt
+    400230: L_Leg_04_Ctrl
+    400232: L_Leg_04_Ctrl_Grp
+    400234: L_Leg_04_Jnt
+    400236: L_Toe_01_FK_01_Ctrl
+    400238: L_Toe_01_FK_01_Ctrl_Grp
+    400240: L_Toe_01_FK_01_Jnt
+    400242: L_Toe_01_FK_02_Jnt
+    400244: L_Toe_02_FK_01_Ctrl
+    400246: L_Toe_02_FK_01_Ctrl_Grp
+    400248: L_Toe_02_FK_01_Jnt
+    400250: L_Toe_02_FK_02_Jnt
+    400252: L_Toe_03_FK_01_Ctrl
+    400254: L_Toe_03_FK_01_Ctrl_Grp
+    400256: L_Toe_03_FK_01_Jnt
+    400258: L_Toe_03_FK_02_Jnt
+    400260: left
+    400262: Left_Arm_Finger_01_Geo
+    400264: Left_Arm_Finger_02_Geo
+    400266: Left_Arm_Finger_03_Geo
+    400268: Left_Arm_Geo_01
+    400270: Left_Arm_Geo_02
+    400272: Left_Arm_Geo_03
+    400274: Left_Leg_01
+    400276: Left_Leg_01 1
+    400278: Left_Leg__Geo_02
+    400280: Left_Leg_Geo_01
+    400282: Left_Leg_Geo_03
+    400284: Left_Leg_Geo_04
+    400286: Left_Leg_Toe_01_Geo
+    400288: Left_Leg_Toe_02_Geo
+    400290: Left_Leg_Toe_03_Geo
+    400292: Neck_01_Ctrl
+    400294: Neck_01_Ctrl_Grp
+    400296: Neck_01_Jnt
+    400298: Neck_02_Ctrl
+    400300: Neck_02_Ctrl_Grp
+    400302: Neck_02_Jnt
+    400304: Neck_03_Ctrl
+    400306: Neck_03_Ctrl_Grp
+    400308: Neck_03_Jnt
+    400310: Neck_04_Ctrl
+    400312: Neck_04_Ctrl_Grp
+    400314: Neck_04_Jnt
+    400316: Neck_Geo_01
+    400318: Neck_Geo_02
+    400320: Neck_Geo_03
+    400322: pCube35
+    400324: pCube35 1
+    400326: pCube37
+    400328: pCube37 1
+    400330: pCube39
+    400332: pCube39 1
+    400334: pCube41
+    400336: pCube41 1
+    400338: pCube43
+    400340: pCube43 1
+    400342: pCube45
+    400344: pCube45 1
+    400346: polySurface1
+    400348: polySurface1 1
+    400350: polySurface1 2
+    400352: polySurface11
+    400354: polySurface11 1
+    400356: polySurface13
+    400358: polySurface13 1
+    400360: polySurface15
+    400362: polySurface15 1
+    400364: polySurface17
+    400366: polySurface17 1
+    400368: polySurface19
+    400370: polySurface19 1
+    400372: polySurface21
+    400374: polySurface21 1
+    400376: polySurface23
+    400378: polySurface23 1
+    400380: polySurface25
+    400382: polySurface25 1
+    400384: polySurface3
+    400386: polySurface3 1
+    400388: polySurface3 2
+    400390: polySurface5
+    400392: polySurface5 1
+    400394: polySurface9
+    400396: polySurface9 1
+    400398: R_Arm_01_Ctrl
+    400400: R_Arm_01_Ctrl_Grp
+    400402: R_Arm_02_Ctrl
+    400404: R_Arm_02_Ctrl_Grp
+    400406: R_Arm_02_Jnt
+    400408: R_Arm_03_Ctrl
+    400410: R_Arm_03_Ctrl_Grp
+    400412: R_Arm_03_Jnt
+    400414: R_Arm_Jnt
+    400416: R_Finger_01_FK_01_Ctrl
+    400418: R_Finger_01_FK_01_Ctrl_Grp
+    400420: R_Finger_01_FK_01_Jnt
+    400422: R_Finger_01_FK_02_Jnt
+    400424: R_Finger_02_FK_01_Ctrl
+    400426: R_Finger_02_FK_01_Ctrl_Grp
+    400428: R_Finger_02_FK_01_Jnt
+    400430: R_Finger_02_FK_02_Jnt
+    400432: R_Finger_03_FK_01_Ctrl
+    400434: R_Finger_03_FK_01_Ctrl_Grp
+    400436: R_Finger_03_FK_01_Jnt
+    400438: R_Finger_03_FK_02_Jnt
+    400440: R_Leg_01_Ctrl
+    400442: R_Leg_01_Ctrl_Grp
+    400444: R_Leg_01_Jnt
+    400446: R_Leg_02_Ctrl
+    400448: R_Leg_02_Ctrl_Grp
+    400450: R_Leg_02_Jnt
+    400452: R_Leg_03_Ctrl
+    400454: R_Leg_03_Ctrl_Grp
+    400456: R_Leg_03_Jnt
+    400458: R_Leg_04_Ctrl
+    400460: R_Leg_04_Ctrl_Grp
+    400462: R_Leg_04_Jnt
+    400464: R_Toe_01_FK_01_Ctrl
+    400466: R_Toe_01_FK_01_Ctrl_Grp
+    400468: R_Toe_01_FK_01_Jnt
+    400470: R_Toe_01_FK_02_Jnt
+    400472: R_Toe_02_FK_01_Ctrl
+    400474: R_Toe_02_FK_01_Ctrl_Grp
+    400476: R_Toe_02_FK_01_Jnt
+    400478: R_Toe_02_FK_02_Jnt
+    400480: R_Toe_03_FK_01_Ctrl
+    400482: R_Toe_03_FK_01_Ctrl_Grp
+    400484: R_Toe_03_FK_01_Jnt
+    400486: R_Toe_03_FK_02_Jnt
+    400488: Right_Arm_Finger_01_Geo
+    400490: Right_Arm_Finger_02_Geo
+    400492: Right_Arm_Finger_03_Geo
+    400494: Right_Arm_Geo_01
+    400496: Right_Arm_Geo_02
+    400498: Right_Arm_Geo_03
+    400500: Right_Leg_Geo_01
+    400502: Right_Leg_Geo_02
+    400504: Right_Leg_Geo_03
+    400506: Right_Leg_Geo_04
+    400508: Right_Leg_Toe_01_Geo
+    400510: Right_Leg_Toe_02_Geo
+    400512: Right_Leg_Toe_03_Geo
+    400514: S_Tail:left
+    400516: Skeleton
+    400518: Spine_Ctrl
+    400520: Spine_Ctrl_Grp
+    400522: Spine_Geo_03
+    400524: Spine_Geo_04
+    400526: Spine_Jnt
+    400528: Spinosaurus
+    400530: Tail_01_Ctrl
+    400532: Tail_01_Ctrl_Grp
+    400534: Tail_01_Jnt
+    400536: Tail_02_Ctrl
+    400538: Tail_02_Ctrl_Grp
+    400540: Tail_02_Jnt
+    400542: Tail_03_Ctrl
+    400544: Tail_03_Ctrl_Grp
+    400546: Tail_03_Jnt
+    400548: Tail_04_Jnt
+    400550: Tail_Geo_01
+    400552: Tail_Geo_02
+    400554: Tail_Geo_03
+    400556: Transform_Ctrl
+    400558: Transform_Ctrl_Grp
+    2300000: Head_Geo_01
+    2300002: Jaw_Geo_01
+    2300004: Left_Leg_01 1
+    2300006: Neck_Geo_01
+    2300008: Neck_Geo_02
+    2300010: Neck_Geo_03
+    2300012: polySurface1 2
+    2300014: polySurface11 1
+    2300016: polySurface13 1
+    2300018: polySurface15 1
+    2300020: polySurface17 1
+    2300022: polySurface19 1
+    2300024: polySurface21 1
+    2300026: polySurface23 1
+    2300028: polySurface25 1
+    2300030: polySurface3 2
+    2300032: polySurface5 1
+    2300034: polySurface9 1
+    2300036: Right_Arm_Finger_01_Geo
+    2300038: Right_Arm_Finger_02_Geo
+    2300040: Right_Arm_Finger_03_Geo
+    2300042: Right_Arm_Geo_01
+    2300044: Right_Arm_Geo_02
+    2300046: Right_Arm_Geo_03
+    2300048: Right_Leg_Geo_01
+    2300050: Right_Leg_Geo_02
+    2300052: Right_Leg_Geo_03
+    2300054: Right_Leg_Geo_04
+    2300056: Right_Leg_Toe_01_Geo
+    2300058: Right_Leg_Toe_02_Geo
+    2300060: Right_Leg_Toe_03_Geo
+    2300062: Spine_Geo_03
+    2300064: Spine_Geo_04
+    2300066: Tail_Geo_01
+    2300068: Tail_Geo_02
+    2300070: Tail_Geo_03
+    3300000: Head_Geo_01
+    3300002: Jaw_Geo_01
+    3300004: Left_Leg_01 1
+    3300006: Neck_Geo_01
+    3300008: Neck_Geo_02
+    3300010: Neck_Geo_03
+    3300012: polySurface1 2
+    3300014: polySurface11 1
+    3300016: polySurface13 1
+    3300018: polySurface15 1
+    3300020: polySurface17 1
+    3300022: polySurface19 1
+    3300024: polySurface21 1
+    3300026: polySurface23 1
+    3300028: polySurface25 1
+    3300030: polySurface3 2
+    3300032: polySurface5 1
+    3300034: polySurface9 1
+    3300036: Right_Arm_Finger_01_Geo
+    3300038: Right_Arm_Finger_02_Geo
+    3300040: Right_Arm_Finger_03_Geo
+    3300042: Right_Arm_Geo_01
+    3300044: Right_Arm_Geo_02
+    3300046: Right_Arm_Geo_03
+    3300048: Right_Leg_Geo_01
+    3300050: Right_Leg_Geo_02
+    3300052: Right_Leg_Geo_03
+    3300054: Right_Leg_Geo_04
+    3300056: Right_Leg_Toe_01_Geo
+    3300058: Right_Leg_Toe_02_Geo
+    3300060: Right_Leg_Toe_03_Geo
+    3300062: Spine_Geo_03
+    3300064: Spine_Geo_04
+    3300066: Tail_Geo_01
+    3300068: Tail_Geo_02
+    3300070: Tail_Geo_03
+    4300000: Head
+    4300002: L_Frong_Leg_02
+    4300004: R_Front_Leg_01
+    4300006: L_Front_Leg_03
+    4300008: R_Front_Leg_02
+    4300010: R_Front_Leg_03
+    4300012: L_Front_Leg_01
+    4300014: L_Back_Leg_01
+    4300016: R_Back_Leg_01
+    4300018: R_Back_Leg_03
+    4300020: L_Back_Leg_03
+    4300022: R_Back_Leg_02
+    4300024: L_Back_Leg_02
+    4300026: Tail_02
+    4300028: Tail_01
+    4300030: Tail_03
+    4300032: Tail_04
+    4300034: Body
+    4300036: Neck_01
+    4300038: Neck_02
+    4300040: Neck_03
+    4300042: Right_Arm_Geo_01
+    4300044: Right_Arm_Finger_01_Geo
+    4300046: Right_Arm_Finger_02_Geo
+    4300048: Right_Arm_Geo_03
+    4300050: Right_Arm_Finger_03_Geo
+    4300052: Right_Arm_Geo_02
+    4300054: Right_Leg_Toe_03_Geo
+    4300056: Right_Leg_Geo_03
+    4300058: Right_Leg_Geo_02
+    4300060: Right_Leg_Toe_01_Geo
+    4300062: Right_Leg_Geo_04
+    4300064: Right_Leg_Geo_01
+    4300066: Right_Leg_Toe_02_Geo
+    4300068: polySurface5
+    4300070: polySurface23
+    4300072: polySurface25
+    4300074: polySurface13
+    4300076: polySurface15
+    4300078: polySurface17
+    4300080: Jaw_Geo_01
+    4300082: Head_Geo_01
+    4300084: polySurface19
+    4300086: polySurface21
+    4300088: Left_Leg_01
+    4300090: polySurface9
+    4300092: polySurface11
+    4300094: Neck_Geo_01
+    4300096: Neck_Geo_03
+    4300098: Neck_Geo_02
+    4300100: polySurface1
+    4300102: polySurface3
+    4300104: Tail_Geo_01
+    4300106: Tail_Geo_02
+    4300108: Tail_Geo_03
+    4300110: Spine_Geo_03
+    4300112: Spine_Geo_04
+    9500000: //RootNode
+    13700000: Body
+    13700002: Head
+    13700004: L_Back_Leg_01
+    13700006: L_Back_Leg_02
+    13700008: L_Back_Leg_03
+    13700010: L_Frong_Leg_02
+    13700012: L_Front_Leg_01
+    13700014: L_Front_Leg_03
+    13700016: Neck_01
+    13700018: Neck_02
+    13700020: Neck_03
+    13700022: R_Back_Leg_01
+    13700024: R_Back_Leg_02
+    13700026: R_Back_Leg_03
+    13700028: R_Front_Leg_01
+    13700030: R_Front_Leg_02
+    13700032: R_Front_Leg_03
+    13700034: Tail_01
+    13700036: Tail_02
+    13700038: Tail_03
+    13700040: Tail_04
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
